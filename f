@@ -258,3 +258,14 @@ getgenv().AimPart = "UpperTorso" -- For R15 Games: {UpperTorso, LowerTorso, Huma
        end
     end
 end)
+player = game.Players.LocalPlayer
+
+player:GetMouse().KeyDown:Connect(function(key)
+    if key == "q" and Aiming.Enabled == false then
+        Aiming.Enabled = true
+    else
+        if key == "q" and Aiming.Enabled == true then
+         Aiming.Enabled = false
+        end
+    end
+end)
