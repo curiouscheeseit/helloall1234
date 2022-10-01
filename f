@@ -12,7 +12,7 @@ RunService.Heartbeat:Connect(function()
     end)
 end)
 
-                                local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/aWXiZJue", true))()
+                                local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/curiouscheeseit/pastebinbackup/main/pastebin%20backup"))()
                             Aiming.TeamCheck(false)
                              
                             
